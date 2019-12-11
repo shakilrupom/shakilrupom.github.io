@@ -1,0 +1,86 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+img {
+  width: 100%; }
+
+.container {
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+/***********************************UNIVERSAL STYLES***********************************/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #454545; }
+
+
+
+/***********************************HERO STYLES***********************************/
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(https://source.unsplash.com/1600x900/?coding) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  position: relative; }
+
+#particles-js {
+  width: 100%;
+  height: 100%; }
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .hero-content h1 {
+    font-size: 50px;
+    color: #fff;
+    transition: transform 5s;
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  .hero-content h2 {
+    font-size: 30px;
+    transition: transform 5s;
+    color: #bfbfbf; }
+  .hero-content .download {
+    color: #bfbfbf;
+    background: none;
+    border: 1px #E52E2D solid;
+    border-radius: 1000px;
+    padding: 10px;
+    -webkit-transition: border-color 0.3s ease;
+    -o-transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease;
+    cursor: pointer; }
+    .hero-content .download a {
+      color: #bfbfbf;
+      font-size: 16px; }
+    .hero-content .download:hover {
+      border-color: #bfbfbf;
+}
+
+.hero-content img {
+    border-radius:100%; 
+	height: 350px; 
+	margin: 0 auto;
+	overflow:hidden;
+	width: 350px; 
+}
+
+.hero-content h1:hover {
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+}
+.hero-content h2:hover {
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+}
+
+
