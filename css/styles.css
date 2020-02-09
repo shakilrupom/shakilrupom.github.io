@@ -1,86 +1,223 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%; }
+  height: 100%;
+}
+
+h4{
+    color: white;
+}
 
 img {
-  width: 100%; }
+  width: 100%;
+}
 
 .container {
   margin: auto;
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+}
 
-/***********************************UNIVERSAL STYLES***********************************/
+/**********************UNIVERSAL STYLES**************************/
 body {
   font-family: "Roboto", sans-serif;
-  color: #454545; }
-
-
+  color: #454545;
+}
 
 /***********************************HERO STYLES***********************************/
+
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box, url(https://source.unsplash.com/1600x900/?coding) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
-  position: relative; }
+  position: relative;
+}
 
 #particles-js {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
-.hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
-  .hero-content h1 {
-    font-size: 50px;
-    color: #fff;
-    transition: transform 5s;
-    margin-top: 30px;
-    margin-bottom: 10px; }
-  .hero-content h2 {
-    font-size: 30px;
-    transition: transform 5s;
-    color: #bfbfbf; }
-  .hero-content .download {
+.DP{
+    position: relative;
+    top: 100px;
+}
+.demobuttonOne{
+    text-align: center;
+}
+
+.demobuttonTwo{
+    text-align: center;
+}
+
+.demobuttonThree{
+    text-align: center;
+}
+
+.btnOne{
     color: #bfbfbf;
     background: none;
     border: 1px #E52E2D solid;
     border-radius: 1000px;
-    padding: 10px;
-    -webkit-transition: border-color 0.3s ease;
-    -o-transition: border-color 0.3s ease;
-    transition: border-color 0.3s ease;
-    cursor: pointer; }
-    .hero-content .download a {
-      color: #bfbfbf;
-      font-size: 16px; }
-    .hero-content .download:hover {
-      border-color: #bfbfbf;
+    cursor: pointer;
+} 
+
+.btnTwo{
+    color: #bfbfbf;
+    background: none;
+    border: 1px #E52E2D solid;
+    border-radius: 1000px;
+    cursor: pointer;
+} 
+
+.btnThree {
+    color: #bfbfbf;
+    background: none;
+    border: 1px #E52E2D solid;
+    border-radius: 1000px;
+    cursor: pointer;
 }
 
-.hero-content img {
-    border-radius:100%; 
-	height: 350px; 
-	margin: 0 auto;
-	overflow:hidden;
-	width: 350px; 
+.btnOne a{
+    color: #bfbfbf;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+.btnTwo a{
+    color: #bfbfbf;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+.btnThree a {
+    color: #bfbfbf;
+    font-size: 16px;
+    text-decoration: none;
 }
 
-.hero-content h1:hover {
-    -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5);
-}
-.hero-content h2:hover {
-    -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5);
+.btnOne :hover {
+    color: #E52E2D;
+    text-decoration: none;
+} 
+
+.btnTwo :hover {
+    color: #E52E2D;
+    text-decoration: none;
+} 
+
+.btnThree :hover {
+    color: #E52E2D;
+    text-decoration: none;
 }
 
+.Name-content {
+    position: relative;
+    left: 28%;
+    max-width: 600px;
+}
 
+.Name-content h1 {
+    position: relative;
+    top: 150px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 5px green;
+    transition: transform 5s;
+    text-align: center;
+}
+
+.Name-content h1 span{
+    color: #E52E2D;
+}
+
+.Name-content h2 {
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+    transition: transform 5s;
+    color: #bfbfbf;
+    text-align: center;
+}
+
+.Name-content .btn {
+    position: relative;
+    top: 200px;
+    left: 40%;
+    color: #bfbfbf;
+    background: none;
+    border: 1px #E52E2D solid;
+    border-radius: 1000px;
+    cursor: pointer; 
+}
+
+.Name-content .btn a {
+    color: #bfbfbf;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.Name-content .btn:hover {
+    border-color: #bfbfbf;
+}
+
+.Name-content h1:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);    
+}
+
+.Name-content h2:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.Name-content .btn a span:hover{
+    color: #E52E2D;
+}
+
+@media screen and (max-width: 800px){
+    .Name-content{
+        position: absolute;
+        margin-left: -55px;
+    }
+    .Name-content h1{
+        position: relative;
+        top: 200px;
+        font-size: 30px;
+    }
+    .Name-content h2{
+        position: relative;
+        top: 200px;
+        font-size: 18px;
+    }
+    .Name-content .btn{
+        position: relative;
+        top: 220px;
+        margin-left: -30px;
+    }
+    .Name-content .btn a{
+        font-size: 09px;
+        text-align: center;
+    }
+    .DP h4{
+        font-size: 18px;
+    }
+    
+    .Name-content h1:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);    
+    }
+    
+    .Name-content h2:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+}
