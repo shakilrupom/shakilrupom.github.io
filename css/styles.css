@@ -1,8 +1,16 @@
-body, html {
-  margin: 0;
-  padding: 0;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body {
   height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  background: #222;
+  font-family: "Open Sans";
 }
+
+
+
 
 h4{
     color: white;
@@ -13,9 +21,7 @@ img {
 }
 
 .container {
-  margin: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+    
 }
 
 /**********************UNIVERSAL STYLES**************************/
@@ -32,6 +38,10 @@ body {
   background-attachment: fixed;
   height: 100%;
   position: relative;
+}
+
+.Carousel-content{
+    
 }
 
 #particles-js {
@@ -114,8 +124,7 @@ body {
 
 .Name-content {
     position: relative;
-    left: 28%;
-    max-width: 600px;
+    margin-top: 10%;
 }
 
 .Name-content h1 {
@@ -143,9 +152,9 @@ body {
 }
 
 .Name-content .btn {
-    position: relative;
-    top: 200px;
-    left: 40%;
+    position: absolute;
+    left: 45%;
+    top: 350%;
     color: #bfbfbf;
     background: none;
     border: 1px #E52E2D solid;
@@ -183,8 +192,8 @@ body {
 
 @media screen and (max-width: 800px){
     .Name-content{
-        position: absolute;
-        margin-left: -55px;
+        position: relative;
+        margin-top: 200px;
     }
     .Name-content h1{
         position: relative;
